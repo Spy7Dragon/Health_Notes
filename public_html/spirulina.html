@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> SPIRULINA </title>
+</head>
+<body >
+<link rel="stylesheet" type="text/css" href="style.css" />
+<table>
+	<tr>
+		<td align="center" width="200" height="200">
+			<img src="/clover.png" alt="shapes" usemap="#shapemap"/>
+			<map name="shapemap">
+				<area shape="polygon" coords="4, 94, 26, 164, 74, 145, 83, 270, 88, 129, 91, 194, 167, 164, 127, 113, 197, 99, 167, 33, 113, 66, 99, 3, 34, 26, 68, 86, 4, 94" href="/index.html" alt="HOME">
+			</map>
+		</td>
+		<td  width="800">
+			<table>
+				<tr>
+					<td>
+											<button><a href="/about.html"><h2>ABOUT</h2></a></button>
+										</td>
+										<td>
+											<button><a class="button" href="/products.html"><h2>PRODUCTS</h2></a></button>
+										</td>
+										<td>
+											<button><a  class="button" href="/ideas.html"><h2>IDEAS</h2></a></button>
+										</td>
+										<td>
+											<button><a class="button" href="/resources.html"><h2>RESOURCES</h2></a></button>
+					</td>
+				</tr>
+			</table>
+		<td width="200"> </td>
+	</tr>
+	<tr>
+		<td valign="top">
+		<h4><u>TOP PRODUCTS</u></h4>
+					<a href="/gelatin.html">Gelatin</a>
+					</br>
+					</br>
+					<a href="/spirulina.html">Spirulina</a>
+					</br>
+				</td>
+				<td valign="top" height="600">
+				<h1> SPIRULINA </h1>
+				<h4> DESCRIPTION </h4>
+				Spirulina is a blue-green algae.
+				As a food source, Spirulina is high in protein and very nutrient dense.
+				It contains all the essential amino acids.
+				<h4> USAGE </h4>
+				<h4> HIGHEST RATED REVIEWS </h4>
+				<pre>
+				<?
+					include ('SPIComments.txt');
+				?>
+				<!--#include virtual="SPIComments.txt" -->
+</pre>
+				</br>
+				</br>
+				Branden Huggins
+				</td>
+		 		<td valign="top">
+		 			<h4><u>RESOURCES</u></h4>
+					<a href="http://products.mercola.com/spirublue/">MERCOLA - SPIRULINA</a>
+					</br>
+					</br>
+					<a href="http://examine.com/supplements/spirulina/">Examine.com - Spirulina</a>
+		 		</td>
+		 	</tr>
+		 	<tr>
+		 		<td valign="top">
+				 			<b>Created by
+				 			</br>
+				 			Branden Huggins</b>
+				 			</br>
+				 			<a href="mailto:bhugg002@odu.edu">Email a suggestion</a>
+				 		</td>
+				 		<td valign="top">
+				 		<form method="POST" action="spirulina.php" >
+				 			<b>Leave Review:</b>
+				 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				 			<input type="submit" value="Submit Review" class="btn" />
+				 			</br>
+				 			<textarea rows="7" cols="64" name='review' id='review'></textarea>
+				 			</form>
+				 		</td>
+				 		<td> <a href="http://www.freecounterstat.com" title="page counter"><img src="http://counter8.freecounterstat.ovh/private/freecounterstat.php?c=d18e9dea2d2b50102e12e131f9eceb87" border="0" title="page counter" alt="page counter"></a></td>
+				 	</tr>
+				</table>
+				</body>
+</html>
